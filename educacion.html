@@ -28,20 +28,49 @@
 
     <nav>
       <a href="index.html">Inicio</a> |
-      <a href="educacion.html">Educación</a> |
+      <a href="educación.html">Educación</a> |
       <a href="experiencia.html">Experiencia</a>
     </nav>
 
     <section>
-      <h2>Información Personal</h2>
-      <img src="img/Perfil.jpg" width="10%" height="10%"></img>
-      <p>Persona de pensamiento lógico, con habito de asumir y cumplir objetivos. <br/>
-        <ul>
-          <h3>Idiomas</h3>
-          <li>Inglés</li>
-          <li>Español</li>
-        </ul>
-      </p>
+      <h2>Educación</h2>
+      <table border="1">
+        <tr>
+          <th>Año</th>
+          <th>Institución</th>
+          <th>Lugar</th>
+          <th>¿Culmino?</th>
+        </tr>
+        <tr>
+          <td>2006</td>
+          <td>IE San Francisco de Asis</td>
+          <td>Acobamba</td>
+          <td>Si</td>
+        </tr>
+        <tr>
+          <td>2013</td>
+          <td>Universidad Nacional de Ingeniería</td>
+          <td>Lima</td>
+          <td>Si</td>
+        </tr>
+      </table>
+    </section>
+
+    <section>
+      <h3>Agregar Estudios</h3>
+      <form>
+        Año:
+        <select name="anio">
+          <option value="a17">2017</option>
+          <option value="a16">2016</option>
+          <option value="a15">2015</option>
+          <option value="a14">2014</option>
+        </select> <br />
+        Institución: <input type="text" name="insti"></input> <br />
+        Lugar: <input type="text" name="lugar"></input> <br />
+        ¿culminó? <input type="radio" name="opcion" value="si">Si</input> <input type="radio" name="opcion" value="no">No</input> <br />
+        <button type="button">Enviar</button>
+      </form>
     </section>
 
     <footer>
