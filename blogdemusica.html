@@ -3,59 +3,80 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,user-scalable=no">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
     <title>PavelMG</title>
   </head>
 
-  <body>
-    <header>
-      <svg width="320" height="150" viewbox="0 0 320 150" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
-        <!-- Created with SVG-edit - http://svg-edit.googlecode.com/ -->
-        <g>
-          <title>Layer 1</title>
-          <polygon transform="rotate(-60 83.03848266601562,50.25) " stroke-width="2" points="137.15383911132812,50.25 28.923110961914062,112.73704528808594 28.923110961914062,-12.237045288085938 137.15383911132812,50.25 " fill="#000000" id="svg_5"/>
-          <text transform="matrix(1.5430563421205095,0,0,1.5293808146934775,-150.2106784645335,-72.93420990825945) " xml:space="preserve" text-anchor="middle" font-family="Sans-serif" font-size="24" id="svg_4" y="107.830651" x="149.43226" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="0" fill="#ffffff" font-weight="bold">PM</text>
-        </g>
-      </svg>
-      <h1>Curriculum Vitae</h1>
+  <body class="container">
+    <header style="background-color:cyan">
+      <div class="row">
+
+        <div class="col-lg-2">
+          <img src="img/Perfil.jpg" width="150px" class="rounded-circle"/>
+        </div>
+
+        <div class="col-lg-3 offset-lg-7 align-self-end">
+          <div class="row">
+            <div class="col">
+              <a href="#"><img src="icons/face.png" width="60px"/></a>
+            </div>
+            <div class="col">
+              <a href="#"><img src="icons/twitter.png" width="60px"/></a>
+            </div>
+            <div class="col">
+              <a href="#"><img src="icons/insta.png" width="60px"/></a>
+            </div>
+          </div>
+        </div>
+
+      </div>
     </header>
 
-    <section>
-      <article>
-        <h2>Pável Fernando, MONTALVÁN GIRÓN</h2>
-        <h3>25/03/1991 - Acobamba, HVCA - PERÚ</h3>
-      </article>
-    </section>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <ul class="nav nav-pills nav-fill">
 
-    <nav>
-      <a href="index.html">Inicio</a> |
-      <a href="educacion.html">Educación</a> |
-      <a href="experiencia.html">Experiencia</a>
+        <li class="nav-item">
+          <a class="nav-link active" href="#">inicio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Artistas</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Grupos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link " href="#">Top10</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link " href="#">Letras</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link " href="#">Acordes</a>
+        </li>
+
+      </ul>
     </nav>
 
-    <section>
-      <h2>Experiencia</h2>
-      <article>
-        <h3>Presentación</h3>
-        <video controls>
-          <source src="video/PerfilVideo.mp4" type="video/mp4">
-          El navegador no soporta el formato.
-        </video>
-      </article>
+    <section class="container">
+      <div class="row">
 
-      <article>
-        <h3>Hola, soy Pável</h3>
-        <audio controls>
-          <source src="audio/MisHobbies.mp3" type="audio/mp3">
-          El navegador no soporta el formato.
-        </audio>
-      </article>
+        <div class="col-lg-8" style="background-color:gray">
+          <div class="row">
+            <div class="col-lg-8">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+            <div class="col-lg-4">Imagen1</div>
+          </div>
+          <div class="row">
+            <div class="col-lg-4">Imagen2</div>
+            <div class="col-lg-8">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+          </div>
+        </div>
+
+        <div class="col-lg-4" style="background-color:pink">
+        </div>
+
+      </div>
     </section>
 
-    <footer>
-      <a href="mailto:pavelmg@gmail.com">pavelmg@gmail.com</a> |
-      987099893 |
-      Lima
-    </footer>
 
   </body>
 </html>
